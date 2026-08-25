@@ -54,4 +54,12 @@ if st.button("Analyse Results", use_container_width=True):
         st.success(f"Average Score: {average:.1f}%")
         st.success(f"Final Grade: {grade}")
 
-    
+        '''
+
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.metric("Average Score", f"{average:.1f}%")
+
+        with col2:
+            st.metric("Final Grade", grade) '''
